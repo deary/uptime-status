@@ -2,24 +2,21 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: 'STATUS',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: 'https://status.apt.pp.ua/',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
   // 因官网 API 时不时的会 CROS 报错，可填自定义反代域名
   // 详见 https://github.com/yb/uptime-status/ 说明
-  ApiDomain: 'api.uptimerobot.com',
+  ApiDomain: 'status.aurorai.workers.dev',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'ur1208662-856e2ffee9b42db9a95d2398',
   ],
 
   // 是否显示监测站点的链接
@@ -34,7 +31,7 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.org.cn/'
+      url: 'https://status.apt.pp.ua/'
     },
     {
       text: 'GitHub',
