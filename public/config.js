@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'STATUS',
+  SiteName: 'HOST STATUS',
 
   // 站点链接
   SiteUrl: 'https://status.apt.pp.ua/',
